@@ -18,7 +18,7 @@ gui.configure(background = "white")
 gui.title("GO-DoRK V1")
 
 	# Set the configuration of GUI window
-gui.geometry("800x500")
+gui.geometry("1000x500")
 
 #----------------------
 
@@ -140,8 +140,44 @@ mybutton=Button(gui,text="Submit",command=gettarget)
 mybutton.grid(row=5,column=4)
 
 
+##Beat Mode
+
+ttk.Label(gui, text = '''
+          Beast-Mode
+          Select pre-installed payload:''',
+          font = ("Times New Roman", 10)).grid(column = 0,
+          row = 6, padx = 10, pady = 25)
 
 
+#another combobox creation
+
+n2 = tk.StringVar()
+b_payload = ttk.Combobox(gui, width = 40, textvariable = n2)
+  
+# Adding combobox drop down list
+b_payload['values'] = ('ext:ini intext:env.ini',
+'ext:ini Version=... password',
+'ext:ini Version=4.0.0.4 password',
+'ext:ini eudora.ini',
+'ext:ini intext:env.ini',
+'filetype:TXT TXT',
+'mysql dump filetype:sql'                       
+                       )
+  
+b_payload.grid(column = 1, row = 6)
+b_payload.current()
+
+def beast_target():
+    target= entry.get()
+    b_pay=b_payload.get()
+    query= "site:"+target+"  "+b_pay
+    webbrowser.open('https://google.com/search?q='+query)
+    
+
+
+
+mybutton=Button(gui,text="Fire",command=beast_target)
+mybutton.grid(row=6,column=2)
 
 
 
