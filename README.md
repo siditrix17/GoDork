@@ -1,5 +1,6 @@
 # Go-DoRK-V.1 
-![god](https://user-images.githubusercontent.com/18136215/156010382-1b3193a0-2407-49db-bf62-a5808141da15.png)
+![god](https://user-images.githubusercontent.com/18136215/156018126-dc578836-84f1-4288-a179-ce91c08e31a0.png)
+
 ---
 This is a Python based GUI(Graphical User Interface) application for Google Dorking. Easy and convinient tool
 Utilizes Python Modules (WebBrowser, Tkinter)
