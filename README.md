@@ -10,11 +10,11 @@
 This is a Python based GUI(Graphical User Interface) application for Google Dorking. Easy and convinient tool
 Utilizes Python Modules (WebBrowser, Tkinter)
 
-###Installation
+### Installation
 No such new modules are required.
 
 
-###Usage: 
+### Usage: 
 - Run the main file(goDork.py).
 - Provide a target website's address
 - Select a search operator and corresponding payload.
