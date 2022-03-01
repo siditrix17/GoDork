@@ -27,5 +27,5 @@ You can custom provide your dorks as well(under-development).
 - [ ] Add information based dorks.  
 - [ ] Add different payloads and link them. 
 
-### Contribution are welcome ✓
+### Contributions are welcome ✓
  
