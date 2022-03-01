@@ -21,3 +21,11 @@ No such new modules are required.
 
 Advanced section: Contains 100's of payload to run(for advance Google recon).
 You can custom provide your dorks as well(under-development).
+
+
+### To-Do Features
+- [ ] Add information based dorks.  
+- [ ] Add different payloads and link them. 
+
+### Contribution are welcome ✓
+ 
