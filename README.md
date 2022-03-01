@@ -1,4 +1,9 @@
 # Go-DoRK-V.1 
+https://img.shields.io/github/issues/siditrix17/GoDork
+https://img.shields.io/github/forks/siditrix17/GoDork
+https://img.shields.io/github/stars/siditrix17/GoDork
+https://img.shields.io/github/license/siditrix17/GoDork
+
 ![god](https://user-images.githubusercontent.com/18136215/156018126-dc578836-84f1-4288-a179-ce91c08e31a0.png)
 
 ---
