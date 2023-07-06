@@ -5,5 +5,11 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  build:
-    runs-on: self-hosted
+  create_folder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create Folder
+        run: |
+          mkdir hello
+          ls -l
