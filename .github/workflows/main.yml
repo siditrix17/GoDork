@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create Folder
-        run: |
+     - name: Checkout Repository
+       uses: actions/checkout@v2
+     - name: Create Folder
+       run: |
           mkdir hello
-          ls -l
+          dir
